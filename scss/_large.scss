@@ -4,3 +4,14 @@ header, nav, main {
 }
 
 /* NAVIGATION STUFF GOES HERE  */
+nav {
+    margin: 0;
+    max-width: unset;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end !important;
+    ul {
+        max-width: 1000px;
+
+    }
+}

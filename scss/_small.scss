@@ -47,10 +47,13 @@ header {
 #navWrapper {
     background-color: $primaryColor;
     nav {
-        
+        width: 100vw;
+        display: flex;
+        justify-content: center;
         ul {
             padding: 0;
             li {
+                text-align: center;
                 padding-left: $gutter;
                 width: 100%;
                 list-style: none;
@@ -61,7 +64,10 @@ header {
                 a{
                     text-decoration: none;
                     color: white;
-                   
+                   &:hover {
+                    text-decoration: underline;
+                    text-decoration-style: wavy;
+                   }
                 }
             }
         }
